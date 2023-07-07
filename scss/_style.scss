@@ -1,0 +1,223 @@
+
+
+
+nav.navbar{
+    background-color: transparent;  //透明
+    transition: .5s;
+
+    a{
+        color: $color_black;
+        transition: .5s;             //延遲五秒
+        margin-right: 10px;
+        font-weight: $font-weightb;
+        &:hover{
+            color:$color_black;
+            background-size: 100% 60%;
+            background-repeat: no-repeat;
+            background-image: linear-gradient(0deg,#2acd7e 50%,transparent 50.1%);
+            background-position: left 0 bottom 50%;
+            
+        }
+    }
+
+}
+
+.header{
+    text-align: center;
+    background-image: url(../res/LOGG.jpg);
+    background-size: cover;
+    background-attachment: fixed;    //照片可以固定住,做出捲動網頁的感覺
+    background-position: center center; 
+    .container{
+        color: black;
+        padding: 200px 0;
+        font-weight: $font-weightb;
+        
+        h1{
+            font-weight : 900;
+            font-size : 45px;
+            margin-top: 70px;
+            border-bottom:solid 2px #555555;
+            width: 200px;
+            text-align: center;
+            padding-bottom: 10px;
+            margin: auto;
+            
+        }
+        h5{
+            font-weight: $font-weightb;
+        }
+    }
+    
+}
+
+section{
+    padding: 50px 0;
+}
+
+#section_mean{
+    background-color:#9BA4B5;
+    color:$color_black;
+    .col-sm-5{
+            background-image: url(../res/Img1.jpg);
+            background-size: cover;
+            height: 250px;
+            mix-blend-mode: multiply;
+    }
+    p{
+        margin-top: 100px;
+        font-size: 24px;
+        font-weight: $font-weightb;
+        padding-left: 180px;    
+    }
+}
+
+#section_core{
+     background-color: #ffffff;   
+     text-align: center; 
+    img{
+        width: 100%;
+    }
+    .img_wrap{
+        height: 380px;
+        overflow: hidden;   //多餘的清除掉
+    }    
+    h2{
+        font-weight: $font-weightb;
+        font-size: 24px;
+    }   
+    h3{
+        font-weight: $font-weightb;
+        margin-bottom: 20px;
+        margin-top: -15px;
+        font-size: 24px;
+    } 
+    li{
+        line-height: 2;
+        font-weight: 500;
+    }
+}
+
+#section_app{
+    background-color: #4b4747;
+    color: white;
+    
+    .col-sm-12{
+        margin-top: 40px;
+        .fa-solid{
+            padding: 10px;
+        }
+      
+    }
+    .col-sm-5 {
+        background-image: url(../res/Img5.jpg);
+        background-size:contain;
+        background-repeat: no-repeat;
+        height: 400px;
+        position: relative;
+        i{
+            color:red;
+            position: absolute;
+            top: 30%;
+            left: 20%;
+        }
+    }
+    .col-sm-7{
+        text-align: center;
+        i{
+           font-size: 30px;
+        }
+    }
+    
+}
+
+#section_operate{
+    background-color: #F0F0F0;
+    
+    img{
+        width: 100%;
+        height: 350px;
+    }
+    i{
+        font-size: 30px;
+    }
+    .feture{
+        margin-top: 10px;       
+    }
+    h2{
+        font-weight: $font-weightb;
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    h3{
+        margin-bottom: 10px;
+        padding-bottom: 5px;
+        font-weight: $font-weightb;
+        font-size: 18px;
+        border-bottom: 2px solid #3F2305;
+        color:#3F2305;
+        width: 200px;
+    }
+    p{
+        margin-bottom: 10px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+}
+
+footer.header{
+    text-align: center;
+    background-image: url(../res/LOGG.jpg);
+    background-size: cover;
+    background-attachment: fixed;    //照片可以固定住,做出捲動網頁的感覺
+    padding-top: 30px;
+   input{
+    background-color: transparent;
+    max-width: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+   }
+    .container{
+        color: $color_black;
+        padding: 50px 0;
+        h1{
+            font-weight: $font-weightb;
+            font-size: 45px;          
+        }
+        h5{
+            font-weight: $font-weightb;
+        }
+    }
+    h3{
+        font-weight: $font-weightb;
+        font-size: 20px;
+        margin-bottom: 10px; 
+    }
+    p{
+       font-weight: $font-weightb;
+       font-size: 20px;
+       border-bottom: solid 2px #555555;
+       width: 220px;
+       margin: auto;
+       padding-bottom: 15px;
+    }
+    input{
+        border:solid 2px $color_gray;
+    }
+    button{
+        font-size: 15px;
+        margin-bottom: 50px;
+        margin-top: 20px;
+        font-weight: $font-weightb;
+        border:solid 2px $color_black;
+        &:hover{
+            border:solid 2px #555555;
+        }
+
+
+    }
+    
+}

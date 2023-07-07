@@ -1,0 +1,144 @@
+body {
+  height: 1000px;
+}
+
+nav.navbar {
+  background-color: transparent;
+  transition: 0.5s;
+}
+nav.navbar a {
+  color: #3b3524;
+  transition: 0.5s;
+}
+nav.navbar a:hover {
+  color: #735f24;
+}
+
+.header {
+  text-align: center;
+  background-image: url(https://p2.bahamut.com.tw/B/2KU/85/4fe21359179ff04f3134fe95601hps95.JPG);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+.header .container {
+  color: white;
+  padding: 200px 0;
+}
+.header .container h1 {
+  font-weight: bold;
+  font-size: 45px;
+  margin-top: 70px;
+}
+.header .container h5 {
+  font-weight: bold;
+}
+.header hr {
+  border: solid 2px #735f24;
+  margin-top: -50px;
+}
+
+section {
+  padding: 50px 0;
+}
+
+#section_ask {
+  background-color: rgb(158, 156, 149);
+  color: white;
+}
+#section_ask .col-sm-5 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTn62QYnT8LFAVqZ7kIj90WaBUWQhC6wWnLQ&usqp=CAU);
+  background-size: cover;
+  height: 400px;
+  mix-blend-mode: multiply;
+}
+#section_ask h2 {
+  margin-top: 150px;
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 100px;
+}
+
+#section_about {
+  background-color: #eee;
+}
+#section_about img {
+  width: 100%;
+}
+#section_about .img_wrap {
+  height: 350px;
+  overflow: hidden;
+}
+
+#section_habit {
+  background-color: #4b4747;
+  color: white;
+  padding: 0;
+}
+#section_habit .col-sm-12 {
+  margin-top: 30px;
+}
+#section_habit .col-sm-5 {
+  background-image: url(https://image1.gamme.com.tw/news2/2017/99/34/qpmRpqWbkKaYqac.jpg);
+  background-size: cover;
+  height: 400px;
+  position: relative;
+}
+#section_habit .col-sm-5 i {
+  color: red;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
+#section_habit .col-sm-7 {
+  text-align: center;
+}
+#section_habit .col-sm-7 i {
+  font-size: 30px;
+}
+
+#section_future img {
+  width: 100%;
+  height: 350px;
+}
+#section_future i {
+  font-size: 30px;
+}
+#section_future .feture {
+  margin-top: 10px;
+}
+
+footer.header {
+  text-align: center;
+  background-image: url(https://p2.bahamut.com.tw/B/2KU/85/4fe21359179ff04f3134fe95601hps95.JPG);
+  background-size: cover;
+  background-attachment: fixed;
+}
+footer.header input {
+  background-color: transparent;
+  max-width: 300px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+footer.header .container {
+  color: white;
+  padding: 50px 0;
+}
+footer.header .container h1 {
+  font-weight: bold;
+  font-size: 45px;
+}
+footer.header .container h5 {
+  font-weight: bold;
+}
+footer.header hr {
+  border: solid 2px #735f24;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+footer.header button {
+  font-size: 15px;
+  margin-bottom: 50px;
+}/*# sourceMappingURL=style.css.map */
